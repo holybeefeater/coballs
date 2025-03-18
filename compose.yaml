@@ -2,7 +2,7 @@ services:
   cobalt:
     container_name: cobalt
     build:
-      context: ./cobalt
+      context: .
       dockerfile: Dockerfile
       args:
         WEB_HOST: "https://cunty.ghost.meanii.dev/"
