@@ -1,0 +1,19 @@
+services:
+  cobalt:
+    container_name: cobalt
+    build:
+      context: ./cobalt
+      dockerfile: Dockerfile
+      args:
+        WEB_HOST: "https://cunty.ghost.meanii.dev/"
+        WEB_DEFAULT_API: "https://cunt.ghost.meanii.dev/"
+    init: true
+    read_only: true
+    restart: unless-stopped
+    ports:
+      - 8000:9000 # api
+      - 8001:9001 # web
+    environment:
+      API_URL: "https://cunt.ghost.meanii.dev/"
+      API_AUTH_REQUIRED: 0
+      DURATION_LIMIT: 86400 # 24 hours
