@@ -54,23 +54,23 @@
 
     "audio.bitrate": "audio bitrate",
     "audio.bitrate.kbps": "kb/s",
-    "audio.bitrate.description": "bitrate is applied only when converting audio to a lossy format. cobalt can't improve the source audio quality, so choosing a bitrate over 128kbps may inflate the file size with no audible difference. perceived quality may vary by format.",
+    "audio.bitrate.description": "bitrate is applied only when converting audio to a lossy format. black tongue can't improve the source audio quality, so choosing a bitrate over 128kbps may inflate the file size with no audible difference. perceived quality may vary by format.",
 
     "audio.youtube.dub": "youtube audio track",
     "audio.youtube.dub.title": "preferred dub language",
-    "audio.youtube.dub.description": "cobalt will use a dubbed audio track for selected language if it's available. if not, original will be used instead.",
+    "audio.youtube.dub.description": "black tongue will use a dubbed audio track for selected language if it's available. if not, original will be used instead.",
     "youtube.dub.original": "original",
 
     "audio.tiktok.original": "tiktok",
     "audio.tiktok.original.title": "download original sound",
-    "audio.tiktok.original.description": "cobalt will download the sound from the video without any changes by the post's author.",
+    "audio.tiktok.original.description": "black tongue will download the sound from the video without any changes by the post's author.",
 
     "metadata.filename": "filename style",
     "metadata.filename.classic": "classic",
     "metadata.filename.basic": "basic",
     "metadata.filename.pretty": "pretty",
     "metadata.filename.nerdy": "nerdy",
-    "metadata.filename.description": "filename style will only be used for files tunneled by cobalt. some services don't support filename styles other than classic.",
+    "metadata.filename.description": "filename style will only be used for files tunneled by black tongue. some services don't support filename styles other than classic.",
 
     "metadata.filename.preview.video": "Video Title",
     "metadata.filename.preview.audio": "Audio Title - Audio Author",
@@ -84,7 +84,7 @@
     "saving.download": "download",
     "saving.share": "share",
     "saving.copy": "copy",
-    "saving.description": "preferred way of saving the file or link from cobalt. if preferred method is unavailable or something goes wrong, cobalt will ask you what to do next.",
+    "saving.description": "preferred way of saving the file or link from black tongue. if preferred method is unavailable or something goes wrong, cobalt will ask you what to do next.",
 
     "accessibility": "accessibility",
     "accessibility.transparency.title": "reduce visual transparency",
@@ -94,7 +94,7 @@
 
     "language": "language",
     "language.auto.title": "automatic selection",
-    "language.auto.description": "cobalt will use your browser's default language if translation is available. if not, english will be used instead.",
+    "language.auto.description": "black tongue will use your browser's default language if translation is available. if not, english will be used instead.",
     "language.preferred.title": "preferred language",
     "language.preferred.description": "this language will be used when automatic selection is disabled. any text that isn't translated will be displayed in english.\n\nsome languages use community-sourced translations, they may be inaccurate or incomplete.",
 
@@ -105,21 +105,21 @@
 
     "privacy.tunnel": "tunneling",
     "privacy.tunnel.title": "always tunnel files",
-    "privacy.tunnel.description": "cobalt will hide your ip address, browser info, and bypass local network restrictions. when enabled, files will also have readable filenames that otherwise would be gibberish.",
+    "privacy.tunnel.description": "black tongue will hide your ip address, browser info, and bypass local network restrictions. when enabled, files will also have readable filenames that otherwise would be gibberish.",
 
     "advanced.debug": "debug",
     "advanced.debug.title": "enable features for nerds",
-    "advanced.debug.description": "gives you easy access to app info that can be useful for debugging. enabling this does not affect functionality of cobalt in any way.",
+    "advanced.debug.description": "gives you easy access to app info that can be useful for debugging. enabling this does not affect functionality of black tongue in any way.",
 
     "advanced.data": "data management",
 
     "processing.community": "community instances",
     "processing.enable_custom.title": "use a custom processing server",
-    "processing.enable_custom.description": "cobalt will use a custom processing instance if you choose to. even though cobalt has some security measures in place, we are not responsible for any damages done via a community instance, as we have no control over them.\n\nplease be mindful of what instances you use and make sure they're hosted by people you trust.",
+    "processing.enable_custom.description": "black tongue will use a custom processing instance if you choose to. even though black tongue has some security measures in place, we are not responsible for any damages done via a community instance, as we have no control over them.\n\nplease be mindful of what instances you use and make sure they're hosted by people you trust.",
 
     "processing.access_key": "instance access key",
     "processing.access_key.title": "use an instance access key",
-    "processing.access_key.description": "cobalt will use this key to make requests to the processing instance instead of other authentication methods. make sure the instance supports api keys!",
+    "processing.access_key.description": "black tongue will use this key to make requests to the processing instance instead of other authentication methods. make sure the instance supports api keys!",
 
     "processing.custom_instance.input.alt_text": "custom instance domain",
     "processing.access_key.input.alt_text": "u-u-i-d access key"
