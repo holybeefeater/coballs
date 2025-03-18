@@ -67,7 +67,6 @@
                 iconColor="green"
             />
         </PageNavSection>
-        
     </svelte:fragment>
 
     <slot slot="content"></slot>

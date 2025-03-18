@@ -23,7 +23,7 @@
     import Switcher from "$components/buttons/Switcher.svelte";
     import OmniboxIcon from "$components/save/OmniboxIcon.svelte";
     import ActionButton from "$components/buttons/ActionButton.svelte";
-    import Sett.ngsButton from "$components/buttons/SettingsButton.svelte";
+    import SettingsButton from "$components/buttons/SettingsButton.svelte";
 
     import IconMute from "$components/icons/Mute.svelte";
     import IconMusic from "$components/icons/Music.svelte";
